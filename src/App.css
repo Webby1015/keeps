@@ -80,7 +80,7 @@
   border-radius: 2px;
   color: rgb(255, 255, 255);
   background-color: #202124;
-  width: 170px;
+  width: 190px;
 }
 
 
@@ -105,7 +105,7 @@
   border-radius: 5px;
   color: rgb(172, 172, 172);
   background-color: #202124;
-  width: 170px;
+  width: 190px;
 }
 
 .todolist button{
@@ -202,3 +202,28 @@ button .submit :hover {
 }
 
 /* rgb(32,33,36) */
+.titledelete{
+  /* padding: 3x; */
+  margin-left: 230px;
+  margin-bottom: 0px;
+  border-radius: 100px;
+  border: solid rgb(32,33,36) 2px;
+  color: rgb(32,33,36);
+  outline: none;
+  /* border: none; */
+  background-color: rgb(32,33,36);
+}
+
+.titlecontainer1:hover .titledelete {
+  margin-left: 230px;
+  margin-bottom: 0px;
+  border-radius: 100px;
+  padding: 2px 5px;
+  border: solid rgb(255, 255, 255) 2px;
+  color: rgb(255, 255, 255);
+  outline: none;
+  /* border: none; */
+  background-color: rgb(32,33,36);
+}
+
+
